@@ -1,0 +1,109 @@
+header h1 {
+    display: flex;
+    
+    color: deeppink;
+    
+  }
+
+  
+
+h2 {
+   font-size: 50px;
+   line-height: 60px;
+   color:#fff;
+   padding-top: 50px;
+}
+h3 {
+  font-size: 40px;
+   line-height: 60px;
+   color:blue;
+  
+   padding-bottom: 50px;
+}
+
+.auth-false {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 200px;
+}
+ 
+  .clearfix {
+    
+    width: 100%;
+  }
+  
+ 
+  header, + hr {
+    margin: 10px 0;
+  }
+  
+  .userAuth {
+    display: block;
+    margin: 20px 0 0;
+  }
+  .modal-header:last-child{
+    border-bottom: 0;
+  }
+  .card {
+    display: inline-block;
+    margin: 1em;
+    max-width: calc(25% - 2em);
+  }
+  
+  .user-info {
+    display: inline-flex;
+    margin: 0 0.5em;
+    color:rgb(5, 0, 1);
+  
+  }
+  .user-info img{
+    display: flex;
+    max-width: 2em;
+  }
+  
+  .auth-true .authenticated,
+  .auth-false .unauthenticated {
+    display: block;
+  }
+  .auth-true .unauthenticated,
+  .auth-false .authenticated {
+    display: none;
+  }
+
+  .modal-body {
+    background:radial-gradient(rgba(255,255,255,0.007),#fffed6);
+    box-shadow: 0 0px 20px 0px rgba(0,0,0,0.1);
+  }
+
+ .modal-header, .modal-footer  {
+  background:radial-gradient(rgba(255,255,255,0.007),#fffed6);
+ }
+
+ .control-label {
+   color: crimson;
+ }
+ .modal-title {
+   color: darkmagenta;
+ }
+
+ .registerForm {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  
+  padding: 5px;
+  border-radius: 10px;
+  margin: 6% auto;
+ }
+
+ button {
+  display: inline-block;
+  background-color:black;
+  color:#ffd6d6;
+  margin: 10px 0;
+  margin-left: 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px #999;
+ }
