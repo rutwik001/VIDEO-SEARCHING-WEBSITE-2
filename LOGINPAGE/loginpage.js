@@ -1,16 +1,16 @@
 //file: script.js
 $(document).ready(() => {
-    //initialize the firebase app
-    const config = {
-      apiKey: "AIzaSyCKNcULQZxFMYioXei32XNWQVoeutz4XDA",
-      authDomain: "contact-book-new.firebaseapp.com",
-      databaseURL: "https://contact-book-new.firebaseio.com",
-      projectId: "contact-book-new",
-      storageBucket: "contact-book-new.appspot.com",
-      messagingSenderId: "473268388365"
-    };
-    firebase.initializeApp(config);
-  
+  //initialize the firebase app
+  const config = {
+    apiKey: "AIzaSyCBZY44K5wEAJWXf_b91IyjEyt1R9DRpYE",
+    authDomain: "login-f1d27.firebaseapp.com",
+    projectId: "login-f1d27",
+    storageBucket: "login-f1d27.appspot.com",
+    messagingSenderId: "564096441482",
+    appId: "1:564096441482:web:edb935b986dbb1c995e173"
+  };
+  firebase.initializeApp(config);
+
     //create firebase references
     const Auth = firebase.auth(); 
     const dbRef = firebase.database();
