@@ -76,7 +76,8 @@ $(document).ready(() => {
         //login the user
         const data = {
           email: $('#loginEmail').val(),
-          password: $('#loginPassword').val()
+          password: $('#loginPassword').val(),
+      
         };
         firebase.auth().signInWithEmailAndPassword(data.email, data.password)
           .then((authData) => {
